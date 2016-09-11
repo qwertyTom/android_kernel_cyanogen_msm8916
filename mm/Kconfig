@@ -566,6 +566,18 @@ config ZPOOL
 	  Compressed memory storage API.  This allows using either zbud or
 	  zsmalloc.
 
+config ZPOOL
+	tristate "Common API for compressed memory storage"
+	default n
+	help
+	  Compressed memory storage API. This allows using either zbud or zsmalloc.
+
+config ZPOOL
+	tristate "Common API for compressed memory storage"
+	default n
+	help
+	  Compressed memory storage API. This allows using either zbud or zsmalloc.
+
 config ZBUD
 	tristate "Low density storage for compressed pages"
 	default n
